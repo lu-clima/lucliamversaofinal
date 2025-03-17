@@ -1,0 +1,19 @@
+.carousel-item iframe {
+  filter: brightness(50%);
+  transition: filter 0.5s ease;
+  height: 900px;
+}
+.carousel-item.active iframe {
+  filter: brightness(100%);
+}
+
+.carousel-control-prev, .carousel-control-next {
+  background-color: #6392b2af;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+}
